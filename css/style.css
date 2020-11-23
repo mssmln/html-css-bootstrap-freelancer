@@ -1,0 +1,45 @@
+.h_100{
+  height: 100px;
+  background-color: red;
+  border: 1px solid black;
+}
+
+.h_150{
+  height: 100px;
+  background-color: coral;
+  border: 1px solid black;
+
+}
+
+
+/* /debug */
+
+
+
+
+/* header */
+#header_top{
+  height: 100px;
+  background-color: #2C3E50;
+}
+
+
+#jumbo_{
+  height: 100px;
+  background-color: #1ABC9C;
+
+}
+
+
+
+
+/* main */
+.bg-c{
+  background-color: #1ABC9C;
+  
+}
+
+
+
+
+/* /main */

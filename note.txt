@@ -24,3 +24,4 @@ una classe per il green chiaro
 
 
 -------------------------
+da dove prende il colore il tag input?

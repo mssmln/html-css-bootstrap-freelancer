@@ -138,6 +138,24 @@
 
 
 /* CONTACT */
+.contact_ input{
+  border: 0 transparent;
+  box-shadow: none;
+  border-radius: 0;
+  font-size: 20px;
+  margin-top: 15px;
+}
+
+.contact_ input::placeholder{
+  color: black;
+  opacity: 1; /* for Firefox */
+}
+
+/* for Edge */
+.contact_ input::-ms-input-placeholder{
+  color: black;
+}
+
 
 
 /* /CONTACT */
@@ -147,7 +165,34 @@
 /* FOOTER */
 .top_{
   background-color: #3A546D;
-  height: 400px;
+}
+
+.top_ h6{
+  color: white;
+  text-transform: uppercase;
+  font-size: 25px;
+  margin-top: 50px;
+}
+
+.top_ address,
+.top_ p{
+  color: white;
+  font-size: 20px;
+}
+
+.top_ .social_icons{
+  color: white;
+  border: 1px solid white;
+  padding: 20px;
+  border-radius: 50%;
+  font-size: 20px;
+  margin: 0 5px;
+}
+
+.top_ mark{
+  color: #1ABC9C;
+  background-color: transparent;
+  text-transform: capitalize;
 }
 
 .bottom_{

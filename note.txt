@@ -24,4 +24,3 @@ una classe per il green chiaro
 
 
 -------------------------
-problema con il colore del menu 

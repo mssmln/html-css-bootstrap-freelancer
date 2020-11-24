@@ -12,7 +12,7 @@
 <body>
   <header>
     <!-- NAVBAR -->
-    <nav class="navbar navbar-default navbar_">
+    <nav class="navbar navbar-default navbar-fixed-top navbar_">
       <div class="container">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
@@ -79,7 +79,7 @@
         <div class="col-xs-12 text-center">
           <img src="img/profile.png" alt="profile">
           <h1>start bootstrap</h1>
-          <div class="star_">
+          <div class="star_white">
             <i class="fas fa-star"></i>
           </div>
           <h3>graphic artist - web designer - illustrator</h3>
@@ -97,30 +97,35 @@
 
   <main>
     <!-- PORTFOLIO -->
-    <section class="container">
+    <section id="portfolio_" class="container">
       <div class="row">
-        <div class="col-xs-12 col-sm-6 col-sm-offset-3 h_100"></div>
-      </div>
-      <div class="row">
-        <div class="col-xs-12 col-sm-6 col-sm-6 h_100"></div>
-      </div>
-      <div class="row">
-        <div class="col-xs-12 col-sm-6 col-sm-6 h_100"></div>
-      </div>
-      <div class="row">
-        <div class="col-xs-12 col-sm-6 h_100"></div>
-      </div>
-      <div class="row">
-        <div class="col-xs-12 col-sm-6 h_100"></div>
-      </div>
-      <div class="row">
-        <div class="col-xs-12 col-sm-6 h_100"></div>
-      </div>
-      <div class="row">
-        <div class="col-xs-12 col-sm-6 h_100"></div>
-        <div class="col-xs-12 col-sm-6 h_100"></div>
+        <div class="col-xs-12 text-center">
+          <h2>portfolio</h2>
+          <div class="star_black">
+            <i class="fas fa-star"></i>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-lg-4">
+          <img src="img/cabin.png" alt="cabin">
+        </div>
+        <div class="col-xs-12 col-sm-6 col-lg-4">
+          <img src="img/cake.png" alt="cake">
+        </div>
+        <div class="col-xs-12 col-sm-6 col-lg-4">
+          <img src="img/circus.png" alt="circus">
+        </div>
+        <div class="col-xs-12 col-sm-6 col-lg-4">
+          <img src="img/game.png" alt="game">
+        </div>
+        <div class="col-xs-12 col-sm-6 col-lg-4">
+          <img src="img/safe.png" alt="safe">
+        </div>
+        <div class="col-xs-12 col-sm-6 col-lg-4">
+          <img src="img/submarine.png" alt="submarine">
+        </div>
 
       </div>
+
 
     </section>
     <!-- /PORTFOLIO -->
@@ -130,17 +135,33 @@
     <section class="about_">
       <div class="container">
         <div class="row">
-          <div class="col-xs-12 col-sm-6 col-sm-offset-3 h_100"></div>
+          <div class="col-xs-12 text-center">
+            <h2>about</h2>
+            <div class="star_white">
+              <i class="fas fa-star"></i>
+            </div>
+          </div>
+        </div>
+
+
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-6">
+            <p><strong>Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization.</strong></p>
+          </div>
+          <div class="col-xs-12 col-sm-6">
+            <p><strong>Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!</strong></p>
+          </div>
         </div>
         <div class="row">
-          <div class="col-xs-12 col-sm-6 h_100"></div>
+          <div class="col-xs-12 text-center">
+            <p><a class="btn btn-default download_btn" href="#" role="button"><i class="fas fa-download"></i> Download</a></p>
+
+
+
+          </div>
         </div>
-        <div class="row">
-          <div class="col-xs-12 col-sm-6 h_100"></div>
-        </div>
-        <div class="row">
-          <div class="col-xs-12 col-sm-4 col-sm-offset-4 h_100"></div>
-        </div>
+
 
       </div>
 
@@ -149,15 +170,35 @@
 
 
     <!-- CONTACT -->
-    <section class="container">
+    <section class="container contact_">
       <div class="row">
-        <div class="col-xs-12 col-sm-6 col-sm-offset-3 h_100"></div>
+        <div class="col-xs-12 text-center">
+          <h2>contact me</h2>
+          <div class="star_black">
+            <i class="fas fa-star"></i>
+          </div>
+        </div>
       </div>
 
 
       <!-- FORM -->
       <div class="row">
-        <div class="col-xs-12 h_100"></div>
+        <form class="col-xs-12">
+          <div class="form-group">
+            <input type="text" class="form-control" id="fname" placeholder="Name">
+          </div>
+          <div class="form-group">
+            <input type="email" class="form-control" id="email" placeholder="Email Address">
+          </div>
+          <div class="form-group">
+            <input type="text" class="form-control" id="phone number" placeholder="Phone Number">
+          </div>
+          <div class="form-group">
+            <input type="text" class="form-control" id="message" placeholder="Message">
+          </div>
+          <button type="submit" class="btn btn-default">Send</button>
+
+        </form>
       </div>
       <!-- /FORM -->
 

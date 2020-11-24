@@ -3,6 +3,7 @@
   height: 500px;
   background-color: coral;
   border: 1px solid black;
+
 }
 
 /* /DEBUG */
@@ -23,7 +24,7 @@
   font-weight: 600;
 }
 
-#menu_{
+#menu_ a{
   color: #FFFFFF;
   text-transform: uppercase;
   font-size: 20px;
@@ -34,7 +35,8 @@
 
 
 .jumbotron_,
-.about_{
+.about_,
+.about_ .download_btn{
   background-color: #1ABC9C;
   color: #FFFFFF;
 }
@@ -49,12 +51,15 @@
   font-weight: 700;
 }
 
-.jumbotron_ .star_{
+.star_white,
+.star_black{
   font-size: 30px;
 }
 
-.jumbotron_ .star_::before,
-.jumbotron_ .star_::after{
+.jumbotron_ .star_white::before,
+.jumbotron_ .star_white::after,
+.about_ .star_white::before,
+.about_ .star_white::after{
   content: '';
   display: inline-block;
   width: 16%;
@@ -69,6 +74,73 @@
   font-size: 25px;
   padding-bottom: 60px;
 }
+
+
+/* PORTFOLIO */
+#portfolio_{
+  padding-bottom: 60px;
+}
+
+
+#portfolio_ .star_black::before,
+#portfolio_ .star_black::after,
+.contact_ .star_black::before,
+.contact_ .star_black::after{
+  content: '';
+  display: inline-block;
+  width: 16%;
+  height: 5px;
+  background-color: black;
+  border-radius: 3px;
+  vertical-align: middle;
+}
+
+
+#portfolio_ img{
+  width: 100%;
+  border-radius: 15px;
+  margin: 20px auto;
+}
+
+#portfolio_ h2,
+.about_ h2,
+.contact_ h2{
+  font-size: 50px;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-top: 80px;
+}
+
+
+
+
+
+/* /PORTFOLIO */
+
+
+/* ABOUT */
+.about_ p{
+  margin-top: 20px;
+  font-size: 22px;
+}
+
+.about_ .download_btn{
+  font-size: 20px;
+  font-weight: bold;
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 60px;
+  border: 1px solid #FFFFFF;
+}
+
+
+/* /ABOUT */
+
+
+/* CONTACT */
+
+
+/* /CONTACT */
 
 
 

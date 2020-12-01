@@ -1,7 +1,3 @@
-nel inspector dove c'è il riquadro in basso a destra non vedo l'offset alla destra di PORTFOLIO, c'è 0 come margin
-
-col-md-6 è in float, perchè non va su quindi?
-
 
 correzione da cristina:
 
@@ -12,7 +8,6 @@ il jumbo può stare fuori dal header tag ma prima del main tag
 incolla il codice di navbar dal sito di bootstrap nel header, ma togli -fluid.
 prenditi le cose che già bootstrap ti fornisce come la navbar
 
-ms_ stands for ?
 
 più probabile l'altezza al header tag e non al jumbo, quindi jumobo fuori da header
 
@@ -20,8 +15,27 @@ aggiungi navbar-fixed-top di bootstrap alla navbar
 
 stellina in suo div con sua classe per usare il before e after
 
-una classe per il green chiaro
-
 
 -------------------------
 da dove prende il colore il tag input?
+
+problema con le icone social
+
+padding 170 a jumbo img  va bene?
+
+prova 11 e offset 1 nei p di about
+
+
+correzione--------------
+
+nel portfolio 2 row e non 1
+
+nel about metti 5 e offset 1 e nell'altro a destra 5, nella seconda row ad col-sm,
+da sm a salire verrano ereditati
+
+contact xs 10 e offset 1
+
+metti il colore alla hover sul menu
+
+inserisci il layover sulle img portfolio, metti la img in un div con classe layover
+e anche l'icona del plus , a layer i absolute

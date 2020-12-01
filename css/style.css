@@ -42,7 +42,7 @@
 }
 
 .jumbotron_ img{
-  padding-top: 50px;
+  padding-top: 170px;
 }
 
 .jumbotron_ h1{
@@ -156,7 +156,13 @@
   color: black;
 }
 
-
+/* .after_::after{
+  content: '';
+  display: block;
+  width: 80%;
+  height: 10px;
+  background-color: red;
+} */
 
 /* /CONTACT */
 
@@ -165,6 +171,7 @@
 /* FOOTER */
 .top_{
   background-color: #3A546D;
+  padding: 30px 0;
 }
 
 .top_ h6{
@@ -180,13 +187,32 @@
   font-size: 20px;
 }
 
-.top_ .social_icons{
+/* .top_ .social_icons{
   color: white;
   border: 1px solid white;
   padding: 20px;
   border-radius: 50%;
   font-size: 20px;
   margin: 0 5px;
+
+  /* ask Cristina
+  height: 40px;
+  width: 40px;
+  display: inline-block;
+} */
+.top_ ul{
+  margin: 0;
+  padding: 0;
+}
+.top_ li{
+  display: inline-block;
+  border: 1px solid white;
+  padding: 20px;
+  color: white;
+}
+
+.top_ i{
+  
 }
 
 .top_ mark{
@@ -197,6 +223,14 @@
 
 .bottom_{
   background-color: #2C3E50;
-  height: 200px;
 }
+
+.bottom_ small{
+  color: white;
+  font-size: 16px;
+  text-transform: capitalize;
+  padding: 30px 0;
+  display: inline-block;
+}
+
 /* /FOOTER */
